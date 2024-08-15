@@ -14,7 +14,7 @@
                 'name' => 'title',
                 'class' => 'col'
             ])
-        
+
         @include('shared.input', [
                 'label' => 'Description de la tâche',
             'value' => $task->description,
